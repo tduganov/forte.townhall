@@ -679,16 +679,18 @@
 <!-- VIDEO -->
 <section id="video">
   <div class="container">
-    <div class="section-label"><span class="section-num">04</span> Видео-визитка</div>
-    <h2>Привет в 60 секунд.</h2>
-    <div class="video-block">
-      <div class="video-icon">▶</div>
-      <div>// сюда вставить видео</div>
-      <div class="small">HEYGEN · D-ID · SYNTHESIA</div>
-      <div style="font-size: 11px; color: var(--text-dim); max-width: 400px; margin-top: 8px; position: relative; z-index: 1;">
-        Подсказка: замени этот блок на &lt;video src="..."&gt;&lt;/video&gt;
-        или на &lt;iframe&gt; с YouTube/Vimeo.
-      </div>
+    <div class="section-label"><span class="section-num">04</span> Трейлер</div>
+    <h2>Команда. Один год. <em>Один план.</em></h2>
+    <div class="video-block" style="aspect-ratio: 16/9; padding: 0; border: 1px solid var(--line-strong); overflow: hidden;">
+      <video
+        controls
+        preload="metadata"
+        playsinline
+        poster="trailer/poster.jpg"
+        style="width: 100%; height: 100%; display: block; object-fit: cover; position: relative; z-index: 1;">
+        <source src="trailer/trailer.mp4" type="video/mp4">
+        Ваш браузер не поддерживает воспроизведение видео.
+      </video>
     </div>
   </div>
 </section>
